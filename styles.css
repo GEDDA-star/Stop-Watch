@@ -8,9 +8,61 @@
     }
 
     .col {
-        width: 100%; /* Make each column take up the full width */
-        margin-bottom: 20px; /* Add some spacing between columns */
-        
+        width: 100%;
+        /* Make each column take up the full width */
+        margin-bottom: 20px;
+        /* Add some spacing between columns */
+
     }
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pause-state {
+    /* opacity: 0; */
+    display: none;
+}
+
+#stop-watch-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.card-header {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.main-section {
+    margin-top: 20px;
+}
+
+.stop-watch {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#timer {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#controls a {
+    margin: 10px;
+    text-decoration: none;
+    color: #dc3545;
+}
+
+#toast {
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+}

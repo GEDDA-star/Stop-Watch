@@ -9,66 +9,14 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        #pause-state{
-            /* opacity: 0; */
-            display: none;
-        }
-
-        #stop-watch-container {
-            background-color: #f8f9fa;
-            padding: 20px;
-        }
-
-        .card-header {
-            background-color: #6c757d;
-            color: #fff;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .main-section {
-            margin-top: 20px;
-        }
-
-        .stop-watch {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #timer {
-            font-size: 36px;
-            font-weight: bold;
-            text-align: center;
-        }
-
-        #controls a {
-            margin: 10px;
-            text-decoration: none;
-            color: #dc3545;
-        }
-
-        #toast {
-            background-color: #28a745;
-            color: #fff;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 
-<body >
+<body>
 
     <div id="toast" class="toast align-items-center position-absolute bottom-0 end-0 mb-3" role="alert"
         aria-live="assertive" aria-atomic="true">
         <div class="toast-body">
-            
+
         </div>
     </div>
 
@@ -97,12 +45,11 @@
                             <a href="#" id="pause-state" onclick="playAction()"><i class="fa fa-pause"
                                     style="font-size:48px;color:red"></i></a>
 
-                            <a href="#" id="reset"><i class="fa fa-refresh"
-                                    style="font-size:48px;color:red"></i></a>
+                            <a href="#" id="reset"><i class="fa fa-refresh" style="font-size:48px;color:red"></i></a>
                         </div>
                     </div>
                     <div class="col">
-                        <img src="clock shadow.png" class="img-fluid" alt="Clock with Shadow" >
+                        <img src="clock shadow.png" class="img-fluid" alt="Clock with Shadow">
                     </div>
                 </div>
             </div>
@@ -117,7 +64,8 @@
     </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </body>
