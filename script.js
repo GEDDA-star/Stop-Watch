@@ -58,7 +58,7 @@ play.onclick = function () {
 pause.onclick = function () {
     flg = false;
     pause.style.display = "none";
-    showNotification("Stop Watch Stopped!");
+    showNotification("Stop Watch Paused!");
     play.style.display = "inline";
 
     clearInterval(interval);
