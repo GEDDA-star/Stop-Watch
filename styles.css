@@ -1,0 +1,16 @@
+/* @import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities"; */
+
+@media (max-width: 767px) {
+    .main-section .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%; /* Make each column take up the full width */
+        margin-bottom: 20px; /* Add some spacing between columns */
+        
+    }
+}
+
